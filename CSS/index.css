@@ -1,10 +1,29 @@
-/*-----------------------------------------GERAIS--------------------------------------------*/
-
-/*-------------------------------------CONTEINERS---------------------------------------*/
-
-
-
-/*------------------------------------Identificaveis---------------------------------------------*/
-
-
-
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.logo{
+	width: 100%;
+	height: 160px;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	padding-top: 30px;
+	background-color: #8e51ff;
+}
+.logo img{
+	width: 540px;
+	height: 150px;
+}
+.menu{
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
